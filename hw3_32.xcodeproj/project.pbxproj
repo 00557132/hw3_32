@@ -13,6 +13,9 @@
 		5513E4F723CC938B0040F724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5513E4F623CC938B0040F724 /* Assets.xcassets */; };
 		5513E4FA23CC938B0040F724 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5513E4F923CC938B0040F724 /* Preview Assets.xcassets */; };
 		5513E4FD23CC938B0040F724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5513E4FB23CC938B0040F724 /* LaunchScreen.storyboard */; };
+		5513E50523CC9D950040F724 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513E50423CC9D950040F724 /* SecondView.swift */; };
+		5513E50723CCA40F0040F724 /* Poli.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513E50623CCA40F0040F724 /* Poli.swift */; };
+		5513E50923CCA4600040F724 /* Poli_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513E50823CCA4600040F724 /* Poli_Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		5513E4F923CC938B0040F724 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5513E4FC23CC938B0040F724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5513E4FE23CC938B0040F724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5513E50423CC9D950040F724 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		5513E50623CCA40F0040F724 /* Poli.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poli.swift; sourceTree = "<group>"; };
+		5513E50823CCA4600040F724 /* Poli_Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poli_Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				5513E4FB23CC938B0040F724 /* LaunchScreen.storyboard */,
 				5513E4FE23CC938B0040F724 /* Info.plist */,
 				5513E4F823CC938B0040F724 /* Preview Content */,
+				5513E50423CC9D950040F724 /* SecondView.swift */,
+				5513E50623CCA40F0040F724 /* Poli.swift */,
+				5513E50823CCA4600040F724 /* Poli_Data.swift */,
 			);
 			path = hw3_32;
 			sourceTree = "<group>";
@@ -146,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5513E50723CCA40F0040F724 /* Poli.swift in Sources */,
 				5513E4F123CC938A0040F724 /* AppDelegate.swift in Sources */,
 				5513E4F323CC938A0040F724 /* SceneDelegate.swift in Sources */,
+				5513E50523CC9D950040F724 /* SecondView.swift in Sources */,
 				5513E4F523CC938A0040F724 /* ContentView.swift in Sources */,
+				5513E50923CCA4600040F724 /* Poli_Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
